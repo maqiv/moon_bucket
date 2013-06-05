@@ -64,7 +64,7 @@ function storeItem() {
 		var dat = $('#editor-date').val();
 		
 		if (tit == "" || cor == "" || dat == "") {
-			alert("Bitte alle Felder ausfüllen!");
+			alert("Bitte alle Felder ausfÃ¼llen!");
 			return;
 		}
 		
