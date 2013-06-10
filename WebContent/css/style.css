@@ -1,130 +1,107 @@
 @CHARSET "US-ASCII";
 
-body
-{
+body {
   /* font-family: 'Finger Paint', cursive; */
   padding-left: 80px;
   padding-right: 80px;
 }
 
-.main-content
-{
+.main-content {
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 100px;
 }
 
-.editor-timestamp
-{
+.editor-timestamp {
   width: 100px;
 }
 
-.editor-timestamp-capsule
-{
+.editor-timestamp-capsule {
   text-align: right;
 }
 
-.editor-left
-{
+.editor-left {
   float: left;
 }
 
-.editor-right
-{
+.editor-right {
   float: left;
   margin-left: 20px;
 }
 
-.editor-right-bottom
-{
+.editor-right-bottom {
   margin-top: 10px;
   margin-left: 20px;
 }
 
-.editor-shareselect-head
-{
+.editor-shareselect-head {
   padding-bottom: 10px;
 }
 
-input.check
-{
+input.check {
   margin: 0px;
 }
 
-.editor-title,.editor-corpus
-{
+.editor-title,.editor-corpus {
   /* font-family: 'Finger Paint', cursive; */
+  
 }
 
-.editor-title
-{
+.editor-title {
   width: 400px;
   margin: 0px;
 }
 
-.editor-corpus
-{
+.editor-corpus {
   width: 400px;
   height: 150px;
   margin-bottom: 15px;
 }
 
-.poetry-container
-{
+.poetry-container {
   margin-bottom: 50px;
 }
 
-.poetry-editor .headline, .poetry-container-entry-delete-click
-{
+.poetry-editor .headline,.poetry-container-entry-delete-click {
   cursor: pointer;
+  padding: 0 12px;
 }
 
-.btn-form
-{
+.btn-form {
   /* font-family: 'Finger Paint', cursive; */
   margin-left: 10px;
   margin-bottom: 10px;
   width: 150px;
 }
 
-.headline
-{
+.headline {
+  color: black;
   font-size: 25px;
   font-style: italic;
 }
 
-hr
-{
+hr {
   margin-top: 3px;
 }
 
-.poetry-container-content
-{
+.poetry-container-content {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.poetry-container-entry-head
-{
+.poetry-container-entry-head {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.poetry-container-entry-content
-{
-  
-}
-
-.poetry-container-entry-foot
-{
+.poetry-container-entry-foot {
   height: 20px;
   margin-bottom: 50px;
   font-style: italic;
   font-size: 10px;
 }
 
-.poetry-container-entry-foot-left, .poetry-container-entry-foot-right
-{
+.poetry-container-entry-foot-left,.poetry-container-entry-foot-right {
   float: left;
   width: 300px;
 }

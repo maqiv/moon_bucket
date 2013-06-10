@@ -3,6 +3,7 @@
 <head>
 <title>Moon Bucket</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="utf-8">
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/datepicker.css" rel="stylesheet" media="screen">
@@ -16,25 +17,28 @@
         <a class="brand" href="#">Moon Bucket</a>
         <ul class="nav">
           <li class="active"><a href="#">Poetries</a></li>
-          <li><a href="#">Drafts</a></li>
-          <li><a href="#">Accounts</a>
+          <li><a href="#">About</a>
         </ul>
       </div>
     </div>
   </div>
   <div class="main-content" id="main-content">
     <div class="poetry-container">
-      <span class="headline">Poetries</span>
-      <hr />
-      <div class="poetry-container-content">
-        <div class="poetry-container-entry">
-          <div class="poetry-container-entry-head">My Poetry</div>
-          <div class="poetry-container-entry-content">Lorem ipsum, bla bla blab bla</div>
-          <div class="poetry-container-entry-foot">
-            <div class="poetry-container-entry-foot-left">Created on 13-04-2013</div>
-            <div class="poetry-container-entry-foot-right"><span class="poetry-container-entry-delete-click" id="e_1">L&ouml;schen</span></div>
-          </div>
-        </div>
+      <ul class="nav nav-tabs" id="mySexyTabs">
+        <li class="active"><a href="#poetries" class="headline" data-toggle="tab">Poetries</a></li>
+        <li><a href="#drafts" class="headline" data-toggle="tab">Drafts</a></li>
+      </ul>
+      <div class="poetry-container-content tab-content">
+        <div class="tab-pane active" id="poetries">pppppp</div>
+        <div class="tab-pane" id="drafts">ppppppppp</div>
+<!--         <div class="poetry-container-entry"> -->
+<!--           <div class="poetry-container-entry-head">My Poetry</div> -->
+<!--           <div class="poetry-container-entry-content">Lorem ipsum, bla bla blab bla</div> -->
+<!--           <div class="poetry-container-entry-foot"> -->
+<!--             <div class="poetry-container-entry-foot-left">Created on 13-04-2013</div> -->
+<!--             <div class="poetry-container-entry-foot-right"><span class="poetry-container-entry-delete-click" id="e_1">L&ouml;schen</span></div> -->
+<!--           </div> -->
+<!--         </div> -->
       </div>
     </div>
     <div class="poetry-editor">

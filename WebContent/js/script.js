@@ -6,6 +6,11 @@ $(document).ready(function() {
 	storeItem();
 	refreshIndex();
 	initItems();
+	
+	$('#mySexyTabs a').click(function(e) {
+		e.preventDefault();
+		$(this).tab('show');
+	});
 });
 
 function collapseMe() {
@@ -22,7 +27,7 @@ function pickdate() {
 }
 
 function initItems() {
-	$('.poetry-container-content').empty();
+	$('.poetry-container-content #poetries').empty();
 	var it = localStorage["pstore.index"].split(";");
 	
 	for (var i = 0; i < (it.length) - 1; i++) {
@@ -41,7 +46,8 @@ function displayItem(index) {
 	cont += "</div>";
 	cont += "</div>";
 	
-	$('.poetry-container-content').append(cont);
+//	if(localStorage["pstore." + index + ".public"] == )
+	$('.poetry-container-content #poetries').append(cont);
 }
 
 function refreshIndex() {
@@ -62,9 +68,12 @@ function storeItem() {
 		var tit = $('#editor-title').val();
 		var cor = $('#editor-corpus').val();
 		var dat = $('#editor-date').val();
+		var ptw = $('#check-twitter').prop('checked');
+		var pfb = $('#check-facebook').prop('checked');
+		var pgp = $('#check-gplus').prop('checked');
 		
 		if (tit == "" || cor == "" || dat == "") {
-			alert("Bitte alle Felder ausfüllen!");
+			alert("Bitte alle Felder ausf\u00fcllen!");
 			return;
 		}
 		
