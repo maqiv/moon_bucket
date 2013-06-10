@@ -6,6 +6,10 @@ body {
   padding-right: 80px;
 }
 
+html, body {
+  height: 100%;
+}
+
 .main-content {
   padding-left: 120px;
   padding-right: 120px;
@@ -39,12 +43,11 @@ body {
 }
 
 input.check {
-  margin: 0px;
+  margin: 0 10px 0 0;
 }
 
 .editor-title,.editor-corpus {
   /* font-family: 'Finger Paint', cursive; */
-  
 }
 
 .editor-title {
@@ -62,7 +65,7 @@ input.check {
   margin-bottom: 50px;
 }
 
-.poetry-editor .headline,.poetry-container-entry-delete-click {
+.poetry-editor .headline,.poetry-container-entry-delete-click,.poetry-container-entry-public-click {
   cursor: pointer;
   padding: 0 12px;
 }
