@@ -95,7 +95,6 @@ function storeItem() {
 
 function removeItem() {
 	$('.poetry-container-entry-delete-click').click(function() {
-//		console.log($(this).parent('.poetry-container-entry'));
 		var t = ($(this).closest('.poetry-container-entry').attr('id')).split('_');
 		var id = t[1];
 		localStorage.removeItem('pstore.' + id + '.title');
@@ -109,7 +108,6 @@ function removeItem() {
 
 function publishItem() {
 	$('.poetry-container-entry-public-click').click(function() {
-//		console.log($(this).closest('.poetry-container-entry').attr('id'));
 		var t = ($(this).closest('.poetry-container-entry').attr('id')).split('_');
 		console.log(t[1]);
 		var id = t[1];
