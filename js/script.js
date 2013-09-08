@@ -41,9 +41,9 @@ function initItems() {
 function displayItem(index) {
 	var cont = '<div class="poetry-container-entry" id="e_' + index + '">';
 	cont += '<div class="poetry-container-entry-head">' + localStorage['pstore.' + index + '.title'] + '</div>';
-	cont += '<div class="poetry-container-entry-content">' + localStorage['pstore.' + index + '.title'] + '</div>';
+	cont += '<div class="poetry-container-entry-content">' + localStorage['pstore.' + index + '.text'] + '</div>';
 	cont += '<div class="poetry-container-entry-foot">';
-	cont += '<div class="poetry-container-entry-foot-left">Created on ' + localStorage['pstore.' + index + '.title'] + '</div>';
+	cont += '<div class="poetry-container-entry-foot-left">Created on ' + localStorage['pstore.' + index + '.timestamp'] + '</div>';
 	cont += '<div class="poetry-container-entry-foot-right">' + ((localStorage['pstore.' + index + '.public'] == 'false') ? '<span class="poetry-container-entry-public-click">Ver&ouml;ffentlichen</span>' : '') + '<span class="poetry-container-entry-delete-click">L&ouml;schen</span></div>';
 	cont += '</div></div>';
 	
