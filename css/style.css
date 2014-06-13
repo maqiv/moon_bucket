@@ -1,9 +1,13 @@
 @CHARSET "US-ASCII";
 
 body {
-  /* font-family: 'Finger Paint', cursive; */
+  font-family: 'Finger Paint', cursive;
   padding-left: 80px;
   padding-right: 80px;
+}
+
+html, body {
+  height: 100%;
 }
 
 .main-content {
@@ -39,12 +43,11 @@ body {
 }
 
 input.check {
-  margin: 0px;
+  margin: 0 10px 0 0;
 }
 
 .editor-title,.editor-corpus {
-  /* font-family: 'Finger Paint', cursive; */
-  
+  font-family: 'Finger Paint', cursive;
 }
 
 .editor-title {
@@ -62,13 +65,13 @@ input.check {
   margin-bottom: 50px;
 }
 
-.poetry-editor .headline,.poetry-container-entry-delete-click {
+.poetry-editor .headline,.poetry-container-entry-delete-click,.poetry-container-entry-public-click {
   cursor: pointer;
   padding: 0 12px;
 }
 
 .btn-form {
-  /* font-family: 'Finger Paint', cursive; */
+  font-family: 'Finger Paint', cursive;
   margin-left: 10px;
   margin-bottom: 10px;
   width: 150px;
@@ -104,4 +107,17 @@ hr {
 .poetry-container-entry-foot-left,.poetry-container-entry-foot-right {
   float: left;
   width: 300px;
+}
+
+.brand-logo {
+  height: 18px;
+  padding-right: 12px;
+}
+
+.about {
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  position: relative;
+  text-align: center;
 }
